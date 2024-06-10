@@ -123,6 +123,7 @@ while True:
             file.truncate()
             for line in lines:
                 if line.strip():
+
                     file.write(line)
         print(len(employees), " employee(s) added to employee.csv")
     elif selection == 3:
